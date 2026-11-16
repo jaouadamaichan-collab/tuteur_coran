@@ -1,0 +1,8 @@
+# PyTorch en version CPU (beaucoup plus légère que la version GPU, inutile sur Streamlit Cloud).
+--extra-index-url https://download.pytorch.org/whl/cpu
+torch==2.6.0+cpu
+transformers>=4.44,<5
+streamlit>=1.40
+numpy>=1.26
+scipy>=1.11
+pandas>=2.0
